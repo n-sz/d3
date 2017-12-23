@@ -1,0 +1,64 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>D3.js Line Graph Sample</title>
+    <script type="text/javascript" src="./commons/d3.v3.js"></script>
+    <script type="text/javascript" src="./commons/jquery.min.js"></script>
+    <style>
+        .main-body {
+            max-width: 1024px;
+        }
+
+        .axis {
+            font: 10px sans-serif;
+        }
+
+        .axis path,
+        .axis line {
+            fill: none;
+            stroke: #000;
+            shape-rendering: crispEdges;
+        }
+
+        .tooltip {
+            border: 1px solid #eee;
+            background-color: #fff;
+            padding: 8px 8px 0 8px;
+            border-radius: 3px;
+        }
+
+        .path {
+            stroke: #00a0e9;
+            opacity: 0.95;
+        }
+
+        .line {
+            fill: none;
+            stroke: red;
+            stroke-width: 4px;
+            margin-top: 100;
+        }
+    </style>
+</head>
+
+<body class="main-body">
+    D3.js Sample
+    </br>
+    <script type="text/javascript" src="./main.js"></script>
+    <script type="text/javascript" src="./circleChart.js"></script>
+    <script type="text/javascript" src="./lineGraph.js"></script>
+    </br>
+    設定値を入力:
+    <div id="input">
+        <div id="record_0">
+            <label id="key">data0</label>
+            <input type="text" id="val1" placeholder="値1" value="10">
+            <input type="text" id="val2" placeholder="値2" value="2">
+        </div>
+    </div>
+    <input type="button" id="set" value="決定">
+    <div id="err" style="color:#ff0000;"></div>
+</body>
+
+</html>
