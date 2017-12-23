@@ -7,4 +7,4 @@ D3.js を使った円グラフと棒グラフのサンプルを作成します
 ３）円グラフ　と棒グラフで２種類のデータを比較して表示します    
 
 ## イメージ画像
-![](https://user-images.githubusercontent.com/34799564/34322662-03aa014a-e871-11e7-83ec-d8727b720a16.png "イメージ画像")
+![image1](https://user-images.githubusercontent.com/34799564/34322731-0fd2fa92-e873-11e7-9b71-168a5cd58a2c.png)
